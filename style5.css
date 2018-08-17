@@ -1,0 +1,48 @@
+*{padding: 0;
+margin: 0;}
+
+body
+{
+  width: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+.cancel
+{  position: absolute;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  margin-top: 25px;
+  margin-left: 93%;
+}
+.cancel img a
+{
+ color: #08273a;
+}
+
+.red-box
+{
+  width: 800px;
+  height: 200px;
+  background: #08273a;
+  margin: 0 auto;
+}
+
+.text
+{
+  width: 600px;
+  margin: 25px auto;
+}
+p
+{
+  font-size: 1em;
+  color: #08273a;
+}
+h1
+{
+  width:  100%;
+  color: #B82323;
+  padding-top: 75px;
+  font-weight: normal;
+  text-align: center;
+}

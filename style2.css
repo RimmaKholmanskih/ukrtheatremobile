@@ -1,0 +1,67 @@
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	width: 100%;
+	height: auto;
+	background: #08273a;
+	font-family: 'Roboto', sans-serif;
+}
+.cancel
+{
+    position: absolute;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  margin-top: 25px;
+  margin-left: 93%;
+}
+.main
+{
+	width: 1020px;
+	height: auto;
+	margin: 0 auto;
+}
+.photo > div {
+  width: 1020px;
+  height: 600px;
+  float: left;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+.photo > div img
+{
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.photo > div:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.text
+{
+	width: 100%;
+	height: auto;
+	/*background: gray;*/
+}
+.photo .text p
+{
+	width: 600px;
+	margin: 0 auto;
+	font-size: 1em;
+	color: white
+}
+h1
+{
+	width: 300px;
+	position: absolute;
+	z-index: 1;
+	margin: 275px 430px;
+	color: white;
+	font-weight: normal
+}

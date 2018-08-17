@@ -1,0 +1,94 @@
+{padding: 0;
+margin: 0;}
+
+body
+{
+	background: #08273a;
+	font-family: 'Roboto', sans-serif;
+}
+.cancel
+{
+  position: absolute;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  margin-top: 25px;
+  margin-left: 93%;
+}
+.main
+{
+  margin: 0 auto;
+  width: 800px;
+  height: auto;
+  display: flex;
+}
+.flex-container1
+{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: 400px;
+  height: auto;
+}
+.flex-container1 > div {
+  width: 170px;
+  height: 240px;
+  float: left;
+  background: white;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+.flex-container1 > div img
+{
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.flex-container1 > div:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.flex-container2
+{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: 400px;
+  height: auto;
+}
+.flex-container2 > div {
+  width: 170px;
+  height: 240px;
+  float: left;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+.flex-container2 > div img
+{
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.flex-container2 > div:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+p
+{
+  position: absolute;
+  margin-top: -242.5px;
+  margin-left: 195px;
+  font-size: 0.8em;
+  color: white;
+}
+h2
+{
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  color: white;
+  font-weight: normal;
+}

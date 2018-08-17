@@ -1,0 +1,336 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	width: 100%;
+	height: auto;
+	background: #08273a;
+	font-family: 'Roboto', sans-serif;
+}
+
+.first
+{
+	position: relative;
+	width: 1020px;
+	height: 100vh;
+	background: url(theatre/1.jpg);
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+	animation: pin 2s linear alternate;
+}
+@keyframes pin {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h1
+{
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin-top: 45%;
+	position: absolute;
+	z-index: 3;
+	margin-left: 15px;
+	font-size: 2em;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+h5
+{
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin-top: 58%;
+	position: absolute;
+	z-index: 3;
+	font-size: 1.5em;
+	text-align: center;
+	color: white;
+	font-weight: normal;
+	margin-left: 15px;
+}
+.logo
+{
+	top: 0;
+	left: 0;
+	margin-left: 47%;
+	width: 15%;
+	margin-top: 83%;
+	position: absolute;
+	z-index: 3;
+	/*background: blue;*/
+	text-align: center;
+	color: white;
+	font-weight: normal;
+}
+.logo img
+{
+	height: 100%;
+	width: 100%;
+}
+.main
+{
+	margin: 50px auto 0 auto;
+	width: 1020px;
+	height: auto;
+	/*background: white;*/
+}
+.ticket
+{
+	height: 300px;
+}
+.slides-example2
+{
+	width:1020px;
+	height:300px;
+	margin:auto;
+	/*background: black;*/
+	position:absolute;
+	overflow:hidden}
+
+.slides-example2 li
+{
+	list-style:none;
+	background: #072233;
+	border:2px solid #0a3047;
+	height:296px;
+	width:127px;
+	position:absolute;
+	left:0;
+	z-index:2;
+	-webkit-transition-property:width,left;
+	-moz-transition-property:width,left;
+	-o-transition-property:width,left;
+	transition-property:width,left;
+	-webkit-transition-duration:1s;
+	-moz-transition-duration:1s;
+	-o-transition-duration:1s;
+	transition-duration:1s;overflow:hide;
+}
+
+.slides-example2 li:hover
+{
+	width:200px;z-index:3
+}
+.slides-example2 li:hover h4
+{
+	-webkit-transform:rotate(0deg);
+	-moz-transform:rotate(0deg);
+	-ms-transform:rotate(0deg);
+	-o-transform:rotate(0deg);
+	transform:rotate(0deg);
+	bottom:10px;right:0px;
+	padding: 0 10px;
+	color:  white;
+	background: #072233;
+	opacity: .75;
+}
+.slides-example2 li h4
+{
+	position:absolute;
+	bottom:-25px;
+	right:10px;
+	display:block;
+	white-space:nowrap;
+	margin:0;
+	padding:0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	/*background: #072233;
+	opacity: .75;*/
+	color:#fefefe;
+	font-size:1em;
+	-webkit-transform-origin:top right;
+	-moz-transform-origin:top right;
+	-ms-transform-origin:top right;
+	-o-transform-origin:top right;
+	transform-origin:top right;
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+	-o-transform:rotate(90deg);
+	transform:rotate(90deg);
+	-webkit-transition-property:-webkit-transform,right,bottom;
+	-moz-transition-property:-moz-transform,right,bottom;
+	-o-transition-property:-o-transform,right,bottom;
+	transition-property:transform,right,bottom;
+	-webkit-transition-duration:1s;
+	-moz-transition-duration:1s;
+	-o-transition-duration:1s;
+	transition-duration:1s
+}
+.slides-example2 li img
+{
+	max-width:none !important;
+	border:0;
+	position:absolute;
+	margin-left:-100px;
+	margin-top:-100px;
+	clip:rect(100px, 208.5px, 396px, 100px)
+}
+.slides-example2 li:hover img
+{
+	clip:auto;
+	margin: 0px;
+	height:100%;
+	width:100%;
+	transition: 1s;
+}
+.slides-example2 .slide-2{left:127px}
+.slides-example2 .slide-2:hover{left:63.5px}
+.slides-example2 .slide-3{left:254px}
+.slides-example2 .slide-3:hover{left:190.5px}
+.slides-example2 .slide-4{left:381px}
+.slides-example2 .slide-4:hover{left:317.5px}
+.slides-example2 .slide-5{left:508px}
+.slides-example2 .slide-5:hover{left:444.5px}
+.slides-example2 .slide-6{left:635px}
+.slides-example2 .slide-6:hover{left:571.5px}
+.slides-example2 .slide-7{left:762px}
+.slides-example2 .slide-7:hover{left:698.5px}
+.slides-example2 .slide-8{left:889px}
+.slides-example2 .slide-8:hover{left:816px}
+
+
+h3
+{
+	margin-left: 50px;
+	padding-top: 155px;
+	color: white;
+	font-weight: normal;
+	font-size: 1.75em;
+}
+h2
+{
+	margin-top: 10px;
+	margin-left: 50px;
+	/*padding-top: 15px;*/
+	color: white;
+	font-size: 2em;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+}
+h6
+{
+	width: 310px;
+	/*background: red;*/
+	margin-top: 60px;
+    margin-left: 50px;
+	/*padding-top: 15px;*/
+	color: white;
+	font-size: 2em;
+	font-weight: normal;
+  padding-bottom: 5px; 
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  transition: .5s;
+}
+h6:after {
+  position: absolute;
+  transition: .5s;
+  content: '';
+  width: 0;
+  left: 50%;
+  bottom: 0;
+  height: 1.75px;
+  background: white;
+}
+h6:after {
+  right: 0;
+  left: auto;
+}
+h6:hover {
+  cursor: pointer;
+}
+h6:hover:after {
+  width: 100%;
+  left: 0;
+}
+.second
+{
+	margin-top: 50px;
+	background: url(theatre/2.jpg) no-repeat;
+	width: 1020px;
+	height: 600px;
+}
+.third
+{
+	margin-top: 50px;
+	background: url(theatre/3.jpg) no-repeat;
+	width: 1020px;
+	height: 600px;
+}
+.four
+{
+	margin-top: 50px;
+	background: url(theatre/4.jpg) no-repeat;
+	width: 1020px;
+	height: 600px;
+}
+
+.five
+{
+	margin-top: 50px;
+	background-color: #020001;
+	width: 1020px;
+	height: 400px;
+	display: flex;
+}
+.partner
+{
+	float: left;
+	display: flex;
+	flex-wrap: wrap;
+	/*align-content: space-around;*/
+}
+.partner > div img
+{
+	width: 128px;
+	height: 128px;
+	padding: 25px 45px;
+	margin-left: 25%;
+	/*background: orange;*/
+
+}
+
+.contact
+{
+	height: 200px;
+	width: 1020px;
+	background-color: #020001;
+}
+.left
+{
+	float: left;
+	padding: 25px 50px 0px 110px;
+	/*background: orange;*/
+}
+.right
+{
+	float: right;
+	padding: 25px 155px 0 0;
+}
+.contact p
+{
+	color: white;
+	font-size: 2em;
+	font-weight: normal;
+}
+
+
+
+
